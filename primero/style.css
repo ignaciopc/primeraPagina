@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(253, 253, 253);
+}
+
+header{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    
+}
+
+.bt {
+    display: flex;
+    align-items: center; 
+    margin-right: 10%;
+}
+.bt span {
+    margin-left: 50px; 
+}
+
+.sn{
+    margin-left: 10%
+}
+
+
+.bt button {
+    margin-left: 50px; /* Espacio entre los elementos en porcentaje */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 15%;
+    padding: 10px;
+    box-shadow: none;
+}
+
+.about{
+    width: 624px;
+    margin-left: 12%;
+    font-size: 24px;
+}
+.g{
+    color: grey;
+}
+.auron{
+    width: 400px;
+    height: 624px;
+}
+.imagen {
+    margin-left: 20%
+}
+.m{
+    display: flex;
+    
+}
+
+footer{
+    display:flex;
+    margin-top: 2%;
+    margin-left: 4%;
+    justify-content: space-between;
+}
+.tabla{
+    margin-right: 25%;
+}
+
+table{
+    border-spacing: 30px; /* Espacio entre las celdas */
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto del elemento padre */
+
+}
+
+.log{
+    margin-left: 40%;
+    margin-top: 8%;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+}
+.log{
+    padding-top: 2%;
+}
+.fo{
+    display: flex;
+    flex-direction: column; /* Alinear los elementos en columna */
+    align-items: center;
+
+}
+.fo input {
+    margin-bottom: 10px; /* Espacio entre los inputs */
+    padding: 8px; /* Espaciado interno para los inputs */
+    width: 200px; /* Ancho de los inputs (ajusta según tus necesidades) */
+}
+
+.su{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 15%;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.reg{
+    margin-left: 50px; /* Espacio entre los elementos en porcentaje */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 15%;
+    padding: 10px;
+    box-shadow: none;
+}
