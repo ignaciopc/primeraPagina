@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
@@ -18,7 +19,7 @@
         </div>
     </header>
     <div class="log">
-        <h1 class="lo">Login .</h1>
+        <h1 class="lo">Registrarse .</h1>
         <form action = "php/registro_usuario_be.php" method="POST">
             <div class="fo">
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre">
@@ -29,7 +30,7 @@
             <button class="su">Log in </button>
 
     </form>
-    <p>Yatienes cuenta <span class="registrarse"><a href="login.php">Inicia sesion</a></span></p>
+    <p>Ya tienes cuenta <span class="registrarse"><a href="login.php">Inicia sesion</a></span></p>
     </div>
 
     <footer>

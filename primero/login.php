@@ -19,13 +19,16 @@
     </header>
     <div class="log">
         <h1 class="lo">Login .</h1>
-        <form method="post">
+        <!-- En el action tengo que expecificar que se va a ejecturar al interacturar con ese formulario -->
+
+        <form method="POST" action="php/login_usuario_be.php">
             <div class="fo">
-                <input type="text" id="nombre" name="nombre" placeholder="Usuario">
-                <input type="password" id="nombre" name="nombre" placeholder="Contraseña">
+                <input type="text" id="nombre" name="usuario" placeholder="Usuario">
+                <input type="password" id="nombre" name="contrasena" placeholder="Contraseña">
             </div>
+            <button class="su">Sing up</button>
+
     </form>
-    <button class="su">Sing up</button>
     <p>No tienes cuenta <span class="registrarse"><a href="registrarse.php">Registrate</a></span></p>
     </div>
 

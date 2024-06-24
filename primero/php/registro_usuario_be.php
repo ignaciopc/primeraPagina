@@ -7,12 +7,14 @@ $correo = $_POST['correo'];
 $usuario = $_POST['usuario'];
 $contrasena = $_POST['contrasena'];
 
+//Encriptamiento de contraseña
+$contrasena = hash('sha512',$contrasena);
 //Verificar que el correo no este en la base de datos
 $verificarUsuario = mysqli_query($conexion,"SELECT * FROM  usuarios where usuario = '$usuario' ");
 
 if(mysqli_num_rows($verificarUsuario) > 0){
     echo '<script> alert("El usaurio  ya esta registrado") ;
-     window.location = "../index.php" </script>' ;
+     window.location = "../registrarse.php" </script>' ;
     exit();
 }else{
     
@@ -20,7 +22,7 @@ if(mysqli_num_rows($verificarUsuario) > 0){
 
     if(mysqli_num_rows($verificar) > 0){
         echo '<script> alert("El correo  ya esta registrado") ;
-         window.location = "../index.php" </script>' ;
+         window.location = "../registrarse.php" </script>' ;
         exit();
     }else{
         echo '<script>   window.location ="../index.php" </script>' ;
