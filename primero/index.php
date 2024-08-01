@@ -11,7 +11,7 @@
             <div class="sn">Site name</div>
             <div class="bt">
                 <span><a href="index.php">Nosotros</a></span>
-                <span>Home</span>
+                <span><a href="home.html">Home</a></span>
                 <span><a href="login.php">Login</a></span>
                 <span class="reg"><a href="registrarse.php">Registrarse</a></span>
             </div>
